@@ -12,10 +12,12 @@ class RepeatCounterTest extends PHPUnit_Framework_TestCase
             $test_RepeatCounter = new RepeatCounter($sentence, $find);
 
         ///   Act   ///
+            $sentence = "Walk the cat";
+            $find = "cat";
             $result = $test_RepeatCounter->countRepeats($sentence, $find);
 
         ///   Assert   ///
-            $this->assertEquals("1", "$result");
+            $this->assertEquals("1", $result);
         }
 
         // function test_WordFreqChecker_multiple()

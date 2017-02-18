@@ -31,18 +31,18 @@ class RepeatCounterTest extends PHPUnit_Framework_TestCase
             $this->assertEquals("2", $result);
         }
 
-        // function test_WordFreqChecker_case()
+        // function test_RepeatCounter_case()
         // ///   Arrange   ///
         //     $sentence = "Cat walks the cat";
         //     $find = "cat";
         //     $count = "2";
-        //     $test_WordFreq = new WordFreqTest($sentence, $find, $count);
+        //     $test_RepeatCounter = new RepeatCounter($sentence, $find);
         //
         // ///   Act   ///
-        //     $result = $test_WordFreq->WordFreqTest();
+        //     $result = $test_RepeatCounter->countRepeats($sentence, $find);
         //
         // ///   Assert   ///
-        //     $this->assertEquals("Cat walks the cat", $count);
+        //     $this->assertEquals("2", $result);
         // }
     }
 ?>

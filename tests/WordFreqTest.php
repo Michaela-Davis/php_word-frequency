@@ -35,7 +35,6 @@ class RepeatCounterTest extends PHPUnit_Framework_TestCase
         // ///   Arrange   ///
         //     $sentence = "Cat walks the cat";
         //     $find = "cat";
-        //     $count = "2";
         //     $test_RepeatCounter = new RepeatCounter($sentence, $find);
         //
         // ///   Act   ///

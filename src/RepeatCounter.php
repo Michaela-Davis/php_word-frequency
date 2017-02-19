@@ -16,15 +16,15 @@
         function countRepeats()
         {
             // Arrange
-            $sentence = $this->sentence;
+            $sentence_case = strtolower($this->sentence);
             $find = $this->find;
-            $sentence_array = explode(" ", $this->sentence);
+            $sentence_array = explode(" ", $sentence_case);
             $count = 0;
 
             // Act
             foreach ($sentence_array as $word) {
                 if ( $word == $find ) {
-                    $count = $count + 1;
+                    $count ++;
                 }
             }
             return $count;

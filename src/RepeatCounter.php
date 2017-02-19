@@ -25,11 +25,10 @@
             foreach ($sentence_array as $word) {
                 if ( $word == $find ) {
                     $count = $count + 1;
-                    $result = $count;
                 }
             }
-            return $result;
+            return $count;
         }
     }
-//
+
 // ?>

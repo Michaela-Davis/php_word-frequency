@@ -1,4 +1,5 @@
 {
+    "name": "silex-heroku-word-frequency",
     "require": {
         "phpunit/phpunit": "4.5.*",
         "silex/silex": "~1.1",
@@ -6,5 +7,11 @@
     },
     "scripts": {
         "test": "phpunit tests"
+    },
+    "extra": {
+        "heroku": {
+            "document-root": "web",
+            "index-document": "index.php"
+        }
     }
 }

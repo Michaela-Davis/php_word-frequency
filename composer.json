@@ -1,5 +1,5 @@
 {
-    "name": "silex-heroku-word-frequency",
+    "name": "silex-heroku-word-frequency-counter",
     "require": {
         "phpunit/phpunit": "4.5.*",
         "silex/silex": "~1.1",

@@ -12,7 +12,31 @@
             $this->find = $find;
         }
 
-        // Method(s)
+        // sentence Getter and Setter
+        function getSentence()
+        {
+            return $this->sentence;
+        }
+
+        function setSentence($new_sentence)
+        {
+            $this->sentence = (string) $new_sentence;
+        }
+
+        // find Getter and Setter
+        function getFind()
+        {
+            return $this->find;
+        }
+
+        function setFind($new_find)
+        {
+            $this->find = (string) $new_find;
+        }
+
+
+
+        // Method
         function countRepeats()
         {
             // Arrange

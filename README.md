@@ -4,6 +4,8 @@
 
 #### By _**Michaela Davis**_
 
+## To see the site live, click below:
+[Word Frequency Checker](https://word-frequency-counter.herokuapp.com/)
 
 ## Description
 

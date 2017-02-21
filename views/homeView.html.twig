@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    {% include '/components/head.html.twig' %}
+    <body>
+        <div class="container">
+
+            <h1>Word Frequency Counter</h1>
+            <form method="post" action="/result">
+                <input type="text" name="sentence" placeholder="Sentence to search">
+                <input type="text" name="find" placeholder="Word to find">
+              <button class="btn btn-success" type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

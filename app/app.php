@@ -20,7 +20,7 @@
         $result = $newRepeatCounter->countRepeats();
 
 
-        return $app['twig']->render("result.html.twig", array("result"=>$result));
+        return $app['twig']->render("result.html.twig", array("result"=>$result, "find"=>$_POST['find']));
     });
 
     return $app;

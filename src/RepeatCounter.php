@@ -47,7 +47,8 @@
 
             // Act
             foreach ($sentence_array as $word) {
-                if ( $word == $find ) {
+                $no_punc_word = preg_replace('/[^a-z]+/i', '', $word);
+                if ( $no_punc_word == $find ) {
                     $count ++;
                 }
             }
